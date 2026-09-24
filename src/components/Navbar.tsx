@@ -90,7 +90,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenPhotoGuide }) => {
                 className="flex items-center gap-1 text-sm font-semibold text-slate-700 hover:text-[#035e16] transition-colors py-2 cursor-pointer"
                 aria-expanded={servicesDropdownOpen}
               >
-                <span>Dịch Vụ Vệ Sinh</span>
+                <span>Dịch Vụ</span>
                 <ChevronDown
                   className={`w-4 h-4 transition-transform duration-200 ${
                     servicesDropdownOpen ? 'rotate-180 text-[#035e16]' : 'text-slate-400'
@@ -131,7 +131,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenPhotoGuide }) => {
               href="#quy-trinh"
               className="text-sm font-semibold text-slate-700 hover:text-[#035e16] transition-colors"
             >
-              Quy Trình 10 Bước
+              Quy Trình
             </a>
 
             <a

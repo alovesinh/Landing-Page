@@ -128,12 +128,6 @@ export const BeforeAfterReviews: React.FC = () => {
 
               {/* Author & District */}
               <div className="pt-4 border-t border-slate-100 flex items-center gap-3">
-                <img
-                  src={item.avatar}
-                  alt={item.name}
-                  className="w-10 h-10 rounded-full object-cover border border-slate-200"
-                  loading="lazy"
-                />
                 <div>
                   <div className="text-sm font-bold text-slate-900 flex items-center gap-1">
                     <span>{item.name}</span>

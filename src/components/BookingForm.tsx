@@ -242,27 +242,7 @@ export const BookingForm: React.FC<BookingFormProps> = ({
 
             {/* Grid 4: Combo & Voucher */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div>
-                <label className="block text-xs font-bold text-slate-700 mb-1.5">
-                  Combo tùy chọn (nếu có)
-                </label>
-                <select
-                  value={selectedCombo}
-                  onChange={(e) => setSelectedCombo(e.target.value)}
-                  className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50/50 text-sm font-medium text-slate-800 focus:ring-2 focus:ring-sky-500 focus:outline-none"
-                >
-                  <option value="Không chọn combo">Chỉ giặt nệm lẻ</option>
-                  <option value="Combo Sạch Toàn Diện Giường Ngủ (Nệm + Topper)">
-                    Combo Nệm + Topper (Tiết kiệm 120k)
-                  </option>
-                  <option value="Combo Phòng Ngủ + Sofa Khách (Bán chạy)">
-                    Combo Nệm + Sofa (Tiết kiệm 250k - Hot)
-                  </option>
-                  <option value="Combo Tổng Vệ Sinh Mùa Mưa VIP">
-                    Combo Tổng Vệ Sinh VIP (Giảm 35%)
-                  </option>
-                </select>
-              </div>
+    
 
               <div>
                 <label className="block text-xs font-bold text-slate-700 mb-1.5">

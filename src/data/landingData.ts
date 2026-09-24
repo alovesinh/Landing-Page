@@ -51,7 +51,6 @@ export interface Testimonial {
   name: string;
   role: string;
   district: string;
-  avatar: string;
   rating: number;
   date: string;
   comment: string;
@@ -360,44 +359,44 @@ export const BRAND_DIFFERENCES = [
   }
 ];
 
+import beforeImgSrc from './before.png';
+import afterImgSrc from './after.png';
+
 export const TESTIMONIALS: Testimonial[] = [
   {
     name: 'Chị Mai Lan',
     role: 'Khách hàng tại Thảo Điền, TP. Thủ Đức',
     district: 'TP. Thủ Đức',
-    avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=200&auto=format&fit=crop',
     rating: 5,
     date: '18/09/2026',
     comment: 'Mùa mưa Sài Gòn nệm nhà mình bị ẩm ngấm mùi ẩm mốc, bé nhỏ cứ nửa đêm là hắt hơi ngứa ngáy. Gọi Alo Vệ Sinh tầm 25 phút là 2 bạn kỹ thuật viên có mặt. Làm kỹ từng góc, nước hút ra đen ngòm nhìn giật mình. Giặt xong có máy sấy thổi nên nệm khô ráo thơm phức, tối bé ngủ ngon lành!',
     mattressType: 'Nệm Cao Su Kymdan 1m8',
-    beforeImg: 'https://images.unsplash.com/photo-1631679706909-1844bbd07221?q=80&w=400&auto=format&fit=crop',
-    afterImg: 'https://images.unsplash.com/photo-1540518614846-7eded433c457?q=80&w=400&auto=format&fit=crop',
+    beforeImg: beforeImgSrc,
+    afterImg: afterImgSrc,
     condition: 'Bị ố vàng do đổ sữa + Ẩm mốc mùa mưa'
   },
   {
     name: 'Anh Trần Quốc Tuấn',
     role: 'Căn hộ Landmark 81, Bình Thạnh',
     district: 'Bình Thạnh',
-    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop',
     rating: 5,
     date: '12/09/2026',
     comment: 'Tôi rất kỹ tính với nệm lò xo cao cấp vì sợ thợ làm ướt rỉ lò xo bên trong. Alo Vệ Sinh dùng máy hút công suất lớn nhìn đầu hút trong suốt thấy nước dơ hút lên sạch bách. Kỹ thuật viên đeo bọc giày, che chắn sàn gỗ rất cẩn thận. Rất đáng đồng tiền!',
     mattressType: 'Nệm Lò Xo Túi Dunlopillo 2m',
-    beforeImg: 'https://images.unsplash.com/photo-1582582621959-48d27397dc69?q=80&w=400&auto=format&fit=crop',
-    afterImg: 'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=400&auto=format&fit=crop',
+    beforeImg: 'src/data/mattress_dirty.png',
+    afterImg: 'src/data/mattress_clean.png',
     condition: 'Bụi mịn tích tụ 2 năm + Mùi hôi thú cưng'
   },
   {
     name: 'Chị Hoàng Yến',
     role: 'Nhà phố KDC Him Lam, Quận 7',
     district: 'Quận 7',
-    avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=200&auto=format&fit=crop',
     rating: 5,
     date: '05/09/2026',
     comment: 'Nhà có 2 bé nhỏ tè dầm liên tục, cộng thêm trời mưa dầm cả tuần nệm bốc mùi khai không chịu nổi. Thợ Alo Vệ Sinh xịt dung dịch sinh học khử mùi triệt để, xông thêm tinh dầu sả chanh thơm nhẹ dễ chịu. Mình đặt luôn combo nệm + sofa được giảm hơn 250k.',
     mattressType: 'Nệm Bông Ép Everon + Topper',
-    beforeImg: 'https://images.unsplash.com/photo-1631679706909-1844bbd07221?q=80&w=400&auto=format&fit=crop',
-    afterImg: 'https://images.unsplash.com/photo-1540518614846-7eded433c457?q=80&w=400&auto=format&fit=crop',
+    beforeImg: 'src/data/mattress_bedwetting_dirty.png',
+    afterImg: 'src/data/mattress_bedwetting_clean.png',
     condition: 'Vết ố vàng tè dầm lâu ngày + Thâm kim'
   }
 ];

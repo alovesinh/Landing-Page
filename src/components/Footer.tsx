@@ -34,16 +34,8 @@ export const Footer: React.FC<FooterProps> = ({ onOpenPhotoGuide }) => {
                 <Phone className="w-3.5 h-3.5" />
                 <span>Hotline: 0962.440.244</span>
               </a>
-              {onOpenPhotoGuide && (
-                <button
-                  type="button"
-                  onClick={onOpenPhotoGuide}
-                  className="inline-flex items-center gap-1.5 px-3 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs rounded-xl border border-slate-700 transition-colors cursor-pointer"
-                >
-                  <Camera className="w-3.5 h-3.5 text-sky-400" />
-                  <span>Gợi ý ảnh SEO</span>
-                </button>
-              )}
+           
+              
             </div>
           </div>
 

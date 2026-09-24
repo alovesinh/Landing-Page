@@ -6,7 +6,7 @@ import { PromoBanner } from './components/PromoBanner';
 import { SleepTimeline } from './components/SleepTimeline';
 import { TenStepsProcess } from './components/TenStepsProcess';
 import { PricingCalculator } from './components/PricingCalculator';
-import { ComboUpsell } from './components/ComboUpsell';
+
 import { BookingForm } from './components/BookingForm';
 import { RiskReversal } from './components/RiskReversal';
 import { BrandPositioning } from './components/BrandPositioning';
@@ -60,8 +60,7 @@ export default function App() {
           }}
         />
 
-        {/* 8. Combo upsell giới hạn suất (nệm + topper, nệm + sofa, combo tổng vệ sinh) */}
-        <ComboUpsell onSelectCombo={(combo) => setSelectedCombo(combo)} />
+
 
         {/* 9. Form đặt lịch ngắn gọn + Phản hồi gọi lại trong 5 phút */}
         <BookingForm
