@@ -359,8 +359,12 @@ export const BRAND_DIFFERENCES = [
   }
 ];
 
-import beforeImgSrc from './before.png';
-import afterImgSrc from './after.png';
+import beforeImgSrc1 from './before.png';
+import afterImgSrc1 from './after.png';
+import beforeImgSrc2 from './mattress_dirty.png';
+import afterImgSrc2 from './mattress_clean.png';
+import beforeImgSrc3 from './mattress_bedwetting_dirty.png';
+import afterImgSrc3 from './mattress_bedwetting_clean.png';
 
 export const TESTIMONIALS: Testimonial[] = [
   {
@@ -371,8 +375,8 @@ export const TESTIMONIALS: Testimonial[] = [
     date: '18/09/2026',
     comment: 'Mùa mưa Sài Gòn nệm nhà mình bị ẩm ngấm mùi ẩm mốc, bé nhỏ cứ nửa đêm là hắt hơi ngứa ngáy. Gọi Alo Vệ Sinh tầm 25 phút là 2 bạn kỹ thuật viên có mặt. Làm kỹ từng góc, nước hút ra đen ngòm nhìn giật mình. Giặt xong có máy sấy thổi nên nệm khô ráo thơm phức, tối bé ngủ ngon lành!',
     mattressType: 'Nệm Cao Su Kymdan 1m8',
-    beforeImg: beforeImgSrc,
-    afterImg: afterImgSrc,
+    beforeImg: beforeImgSrc1,
+    afterImg: afterImgSrc1,
     condition: 'Bị ố vàng do đổ sữa + Ẩm mốc mùa mưa'
   },
   {
@@ -383,8 +387,8 @@ export const TESTIMONIALS: Testimonial[] = [
     date: '12/09/2026',
     comment: 'Tôi rất kỹ tính với nệm lò xo cao cấp vì sợ thợ làm ướt rỉ lò xo bên trong. Alo Vệ Sinh dùng máy hút công suất lớn nhìn đầu hút trong suốt thấy nước dơ hút lên sạch bách. Kỹ thuật viên đeo bọc giày, che chắn sàn gỗ rất cẩn thận. Rất đáng đồng tiền!',
     mattressType: 'Nệm Lò Xo Túi Dunlopillo 2m',
-    beforeImg: 'src/data/mattress_dirty.png',
-    afterImg: 'src/data/mattress_clean.png',
+    beforeImg: beforeImgSrc2,
+    afterImg: afterImgSrc2,
     condition: 'Bụi mịn tích tụ 2 năm + Mùi hôi thú cưng'
   },
   {
@@ -395,8 +399,8 @@ export const TESTIMONIALS: Testimonial[] = [
     date: '05/09/2026',
     comment: 'Nhà có 2 bé nhỏ tè dầm liên tục, cộng thêm trời mưa dầm cả tuần nệm bốc mùi khai không chịu nổi. Thợ Alo Vệ Sinh xịt dung dịch sinh học khử mùi triệt để, xông thêm tinh dầu sả chanh thơm nhẹ dễ chịu. Mình đặt luôn combo nệm + sofa được giảm hơn 250k.',
     mattressType: 'Nệm Bông Ép Everon + Topper',
-    beforeImg: 'src/data/mattress_bedwetting_dirty.png',
-    afterImg: 'src/data/mattress_bedwetting_clean.png',
+    beforeImg: beforeImgSrc3,
+    afterImg: afterImgSrc3,
     condition: 'Vết ố vàng tè dầm lâu ngày + Thâm kim'
   }
 ];
