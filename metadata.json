@@ -1,0 +1,6 @@
+{
+  "name": "Alo Vệ Sinh – Giặt Nệm Mùa Mưa Tại Nhà TP.HCM",
+  "description": "Dịch vụ giặt nệm mùa mưa tại nhà TP.HCM chuyên nghiệp của Alo Vệ Sinh. Sạch sâu mạt bụi 99.9%, sấy nhiệt khô nhanh trong ngày, có mặt sau 30 phút, bảo hành 7 ngày.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
