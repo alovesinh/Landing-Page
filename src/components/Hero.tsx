@@ -33,7 +33,7 @@ export const Hero: React.FC = () => {
 
             {/* Main H1 */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[2.9rem] font-black text-slate-900 tracking-tight leading-[1.2]">
-              Giặt Nệm Tại Nhà TP.HCM –{' '}
+              Giặt Nệm Ẩm Mốc Mùa Mưa TPHCM –{' '}
               <span className="text-[#035e16]">
                 Sạch Sâu, Khô Nhanh
               </span>{' '}
